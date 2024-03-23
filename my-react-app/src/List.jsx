@@ -2,8 +2,8 @@ import PropTypes from 'prop-types'
 
 
 function List(props){
-    const category = props.category;
-    const items = props.items;
+    const category = props.category; // assign the props value of category to a local variable
+    const items = props.items; //assign the props value of items to a local variable
     
     //fruits.sort((a, b) => a.name.localeCompare(b.name)); //Alfabtiskt
     //fruits.sort((a, b) => b.name.localeCompare(a.name)); // omvänd alfabetisk
@@ -11,7 +11,7 @@ function List(props){
 
     //const lowCalFruits = fruits.filter(fruit => fruit.calories < 100);
 
-    const listItems = items.map(item => <li key={item.id}>{item.name}: &nbsp;{item.calories}</li>);
+    const listItems = items.map(item => <li key={item.id}>{item.name}: &nbsp;{item.calories}</li>); //map the array with a local loop
     
     return(
         <>
