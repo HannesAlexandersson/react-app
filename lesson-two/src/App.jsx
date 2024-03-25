@@ -1,5 +1,9 @@
-import Box from './components/Box.jsx';
-import './box-styles.css';
+//import Box from './components/Box.jsx';
+//import './box-styles.css';
+import fruits from "./fruits.json";
+import List from './components/List';
+import ListItem from './components/ListItems';
+import "./App.css";
 /*
 //Uppgift 1
 //  add a className prop to each div and apply the correct class names
@@ -50,13 +54,28 @@ In this extra credit, try to make this API work:
 <Box size="small" style={{ backgroundColor: 'lightblue' }}>
     small lightblue box
 </Box>
-*/
+
 function App(){
 
   return(
     <Box size="small" style={{ backgroundColor: 'lightblue' }}>
         small lightblue box
     </Box>
+  );
+}
+*/
+//Uppgift extra1 
+function App() {
+  return (
+    <div className="main">
+    <List>
+      <>
+        {fruits.map((fruit) => (
+          <ListItem key={fruit.id} {...fruit}/>
+        ))}
+      </>
+      </List>
+    </div>
   );
 }
 export default App;

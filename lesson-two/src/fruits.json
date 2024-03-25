@@ -1,0 +1,114 @@
+[
+    {
+      "name": "Apple ",
+      "emoji": "🍎",
+      "id": 6,
+      "isFavourite": true,
+      "color": "rgba(255, 0, 0, 0.5)",
+      "nutritions": {
+        "calories": 52,
+        "fat": 0.4,
+        "sugar": 10.3,
+        "carbohydrates": 11.4,
+        "protein": 0.3
+      }
+    },
+    {
+      "name": "Orange ",
+      "emoji": "🍊",
+      "id": 2,
+      "isFavourite": false,
+      "color": "rgba(255, 165, 0, 0.5)",
+      "nutritions": {
+        "calories": 43,
+        "fat": 0.2,
+        "sugar": 8.2,
+        "carbohydrates": 8.3,
+        "protein": 1
+      }
+    },
+    {
+      "name": "Watermelon ",
+      "emoji": "🍉",
+      "id": 25,
+      "isFavourite": true,
+      "color": "rgba(0, 128, 0, 0.5)",
+      "nutritions": {
+        "calories": 30,
+        "fat": 0.2,
+        "sugar": 6,
+        "carbohydrates": 8,
+        "protein": 0.6
+      }
+    },
+    {
+      "name": "Lemon ",
+      "emoji": "🍋",
+      "id": 26,
+      "isFavourite": false,
+      "color": "rgba(255, 255, 0, 0.5)",
+      "nutritions": {
+        "calories": 29,
+        "fat": 0.3,
+        "sugar": 2.5,
+        "carbohydrates": 9,
+        "protein": 1.1
+      }
+    },
+    {
+      "name": "Mango ",
+      "emoji": "🥭",
+      "id": 27,
+      "isFavourite": false,
+      "color": "rgba(255, 165, 0, 0.5)",
+      "nutritions": {
+        "calories": 60,
+        "fat": 0.38,
+        "sugar": 13.7,
+        "carbohydrates": 15,
+        "protein": 0.82
+      }
+    },
+    {
+      "name": "Blueberry ",
+      "emoji": "🫐",
+      "id": 33,
+      "isFavourite": true,
+      "color": "rgba(0, 0, 255, 0.5)",
+      "nutritions": {
+        "calories": 29,
+        "fat": 0.4,
+        "sugar": 5.4,
+        "carbohydrates": 5.5,
+        "protein": 0
+      }
+    },
+    {
+      "name": "Grape ",
+      "emoji": "🍇",
+      "id": 81,
+      "isFavourite": false,
+      "color": "rgba(128, 0, 128, 0.5)",
+      "nutritions": {
+        "calories": 69,
+        "fat": 0.16,
+        "sugar": 16,
+        "carbohydrates": 18.1,
+        "protein": 0.72
+      }
+    },
+    {
+      "name": "Cherry ",
+      "emoji": "🍒",
+      "id": 9,
+      "isFavourite": false,
+      "color": "rgba(255, 0, 0, 0.5)",
+      "nutritions": {
+        "calories": 50,
+        "fat": 0.3,
+        "sugar": 8,
+        "carbohydrates": 12,
+        "protein": 1
+      }
+    }
+  ]
