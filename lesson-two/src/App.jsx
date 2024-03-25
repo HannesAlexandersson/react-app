@@ -26,7 +26,8 @@ function App() {
   );
 }
 */
-
+//Uppgift 2
+/*
 function App(){
 
   return(
@@ -35,5 +36,27 @@ function App(){
     </Box>
   );
 }
+*/
 
+//Uppgift 3
+/*
+It's great that we're composing the classNames and styles properly, but wouldn't it be better if the users of 
+our components didn't have to worry about which class name to apply for a given effect? Or that a class name 
+is involved at all? I think it would be better if users of our component had a size prop and our component 
+took care of making the box that size.
+
+In this extra credit, try to make this API work:
+
+<Box size="small" style={{ backgroundColor: 'lightblue' }}>
+    small lightblue box
+</Box>
+*/
+function App(){
+
+  return(
+    <Box size="small" style={{ backgroundColor: 'lightblue' }}>
+        small lightblue box
+    </Box>
+  );
+}
 export default App;
