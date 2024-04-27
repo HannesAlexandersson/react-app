@@ -20,12 +20,7 @@ function TicTacToe(){
         setIsXTurn(!isXTurn);
         setSquares(cpySquares);
     }
-//we also need to calculate the winner
-/* 
-0,1,2
-3,4,5
-6,7,8 
-*/
+//we also need to calculate the winner, all winnable patterns:
     function getWinner(squares){
         const winnerPatterns = [
             [0,1,2],
